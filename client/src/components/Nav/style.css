@@ -1,0 +1,9 @@
+.nav {
+  padding-right: 15px;
+}
+.nav-item {
+  margin: 15px 5px;
+}
+.nav-link {
+  color: white;
+}
