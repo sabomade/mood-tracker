@@ -11,9 +11,6 @@ const Home = () => {
     <>
       <Nav />
       <Jumbotron />
-      <Container fluid>
-        <h1>Hello World</h1>
-      </Container>
     </>
   );
 };
