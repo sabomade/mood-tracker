@@ -23,6 +23,8 @@
     "if-env": "^1.0.4",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.28",
-    "react-router-dom": "^5.1.2"
+    "mongoose": "^5.9.9",
+    "react-router-dom": "^5.1.2",
+    "routes": "^2.1.0"
   }
 }
