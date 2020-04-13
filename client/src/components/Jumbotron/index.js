@@ -10,7 +10,10 @@ export function Jumbotron() {
         <h1 className="display-4">Mood Tracker</h1>
         <p className="lead">Track participant attendance & attitutde</p>
         <Link to={"/demo"}>
-          <button className="btn btn-outline-warning btn-lg" type="button">
+          <button
+            className="btn btn-outline-warning btn-lg white"
+            type="button"
+          >
             Demo
           </button>
         </Link>

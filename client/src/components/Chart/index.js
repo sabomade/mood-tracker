@@ -14,6 +14,11 @@ CanvasJS.addColorSet("greenShades", [
   "#3EC094",
 ]);
 
+// demo point counters
+var happyPt = 2;
+var neutralPt = 3;
+var sadPt = 1;
+
 const Chart = () => {
   const options = {
     animationEnabled: true,
@@ -40,9 +45,9 @@ const Chart = () => {
         indexLabelFontFamily: "Comfortaa",
         indexLabelFontSize: 10,
         dataPoints: [
-          { label: "Happy", y: 2 },
-          { label: "Neutral", y: 3 },
-          { label: "Unhappy", y: 1 },
+          { label: "Happy", y: happyPt },
+          { label: "Neutral", y: neutralPt },
+          { label: "Unhappy", y: sadPt },
         ],
       },
     ],
