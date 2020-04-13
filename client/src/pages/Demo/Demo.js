@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 // import components
 import Chart from "../../components/Chart";
@@ -8,14 +9,12 @@ const Demo = () => {
   return (
     <>
       <div className="nav">
-        <div className="item1">
-          <button type="button" className="btn btn-outline-warning">
+        <Link to={"/"}>
+          <button type="button" className="btn btn-outline-warning back">
             &larr; Back
           </button>
-        </div>
-        <div className="item2">
-          <h1>Hello World, Demo page</h1>
-        </div>
+        </Link>
+        <h1>Hello World, Demo page</h1>
       </div>
       <Chart />
     </>
