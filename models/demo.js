@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 
 var Schema = mongoose.Schema;
-var StudentSchema = new Schema({
+var DemoSchema = new Schema({
   name: {
     type: String,
     required: true,
@@ -32,6 +32,6 @@ var StudentSchema = new Schema({
   ],
 });
 
-var Student = mongoose.model("Student", StudentSchema);
+var Demo = mongoose.model("Demo", DemoSchema);
 
-module.exports = Student;
+module.exports = Demo;

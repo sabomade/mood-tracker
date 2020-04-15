@@ -16,12 +16,13 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(routes);
 
+//mongoose db connection
 var database = "mongodb://localhost/MoodTracker";
 
 if (process.env.MONGODB_URI) {
   mongoose.connect(process.env.MONGODB_URI);
 } else {
-  mongoose.connect(database);
+  mongoose.connect(database, { useNewUrlParser: true });
 }
 
 app.get("*", (req, res) => {
